@@ -7,22 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4741D5F02876646E00D2B318 /* output.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4741D5EF2876646E00D2B318 /* output.mp4 */; };
+		4741D5F12876646E00D2B318 /* output.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4741D5EF2876646E00D2B318 /* output.mp4 */; };
+		4741D5F22876646E00D2B318 /* output.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4741D5EF2876646E00D2B318 /* output.mp4 */; };
 		47F05F0F2875B93200A1BA00 /* test_transparencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F05F0E2875B93200A1BA00 /* test_transparencyApp.swift */; };
 		47F05F112875B93200A1BA00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F05F102875B93200A1BA00 /* ContentView.swift */; };
 		47F05F132875B93300A1BA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F122875B93300A1BA00 /* Assets.xcassets */; };
 		47F05F162875B93300A1BA00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F152875B93300A1BA00 /* Preview Assets.xcassets */; };
+		47F05F1D2875B96800A1BA00 /* output.mov in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F1C2875B96800A1BA00 /* output.mov */; };
+		47F05F202875B98500A1BA00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F05F102875B93200A1BA00 /* ContentView.swift */; };
+		47F05F212875B98500A1BA00 /* test_transparencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F05F0E2875B93200A1BA00 /* test_transparencyApp.swift */; };
+		47F05F242875B98500A1BA00 /* output.mov in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F1C2875B96800A1BA00 /* output.mov */; };
+		47F05F252875B98500A1BA00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F152875B93300A1BA00 /* Preview Assets.xcassets */; };
+		47F05F262875B98500A1BA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F122875B93300A1BA00 /* Assets.xcassets */; };
+		47F05F2D2875B98B00A1BA00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F05F102875B93200A1BA00 /* ContentView.swift */; };
+		47F05F2E2875B98B00A1BA00 /* test_transparencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F05F0E2875B93200A1BA00 /* test_transparencyApp.swift */; };
+		47F05F312875B98B00A1BA00 /* output.mov in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F1C2875B96800A1BA00 /* output.mov */; };
+		47F05F322875B98B00A1BA00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F152875B93300A1BA00 /* Preview Assets.xcassets */; };
+		47F05F332875B98B00A1BA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F05F122875B93300A1BA00 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47F05F0B2875B93200A1BA00 /* test-transparency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-transparency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4741D5EF2876646E00D2B318 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output.mp4; sourceTree = "<group>"; };
+		47F05F0B2875B93200A1BA00 /* tvOS test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F05F0E2875B93200A1BA00 /* test_transparencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_transparencyApp.swift; sourceTree = "<group>"; };
 		47F05F102875B93200A1BA00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47F05F122875B93300A1BA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F05F152875B93300A1BA00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47F05F1C2875B96800A1BA00 /* output.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = output.mov; sourceTree = "<group>"; };
+		47F05F2A2875B98500A1BA00 /* macOS test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F05F372875B98B00A1BA00 /* iOS test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		47F05F082875B93200A1BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F05F222875B98500A1BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F05F2F2875B98B00A1BA00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,7 +75,9 @@
 		47F05F0C2875B93200A1BA00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47F05F0B2875B93200A1BA00 /* test-transparency.app */,
+				47F05F0B2875B93200A1BA00 /* tvOS test.app */,
+				47F05F2A2875B98500A1BA00 /* macOS test.app */,
+				47F05F372875B98B00A1BA00 /* iOS test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +88,8 @@
 				47F05F0E2875B93200A1BA00 /* test_transparencyApp.swift */,
 				47F05F102875B93200A1BA00 /* ContentView.swift */,
 				47F05F122875B93300A1BA00 /* Assets.xcassets */,
+				4741D5EF2876646E00D2B318 /* output.mp4 */,
+				47F05F1C2875B96800A1BA00 /* output.mov */,
 				47F05F142875B93300A1BA00 /* Preview Content */,
 			);
 			path = "test-transparency";
@@ -70,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47F05F0A2875B93200A1BA00 /* test-transparency */ = {
+		47F05F0A2875B93200A1BA00 /* tvOS test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47F05F192875B93300A1BA00 /* Build configuration list for PBXNativeTarget "test-transparency" */;
+			buildConfigurationList = 47F05F192875B93300A1BA00 /* Build configuration list for PBXNativeTarget "tvOS test" */;
 			buildPhases = (
 				47F05F072875B93200A1BA00 /* Sources */,
 				47F05F082875B93200A1BA00 /* Frameworks */,
@@ -82,9 +118,43 @@
 			);
 			dependencies = (
 			);
-			name = "test-transparency";
+			name = "tvOS test";
 			productName = "test-transparency";
-			productReference = 47F05F0B2875B93200A1BA00 /* test-transparency.app */;
+			productReference = 47F05F0B2875B93200A1BA00 /* tvOS test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F05F1E2875B98500A1BA00 /* macOS test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F05F272875B98500A1BA00 /* Build configuration list for PBXNativeTarget "macOS test" */;
+			buildPhases = (
+				47F05F1F2875B98500A1BA00 /* Sources */,
+				47F05F222875B98500A1BA00 /* Frameworks */,
+				47F05F232875B98500A1BA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS test";
+			productName = "test-transparency";
+			productReference = 47F05F2A2875B98500A1BA00 /* macOS test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F05F2B2875B98B00A1BA00 /* iOS test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F05F342875B98B00A1BA00 /* Build configuration list for PBXNativeTarget "iOS test" */;
+			buildPhases = (
+				47F05F2C2875B98B00A1BA00 /* Sources */,
+				47F05F2F2875B98B00A1BA00 /* Frameworks */,
+				47F05F302875B98B00A1BA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS test";
+			productName = "test-transparency";
+			productReference = 47F05F372875B98B00A1BA00 /* iOS test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +185,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47F05F0A2875B93200A1BA00 /* test-transparency */,
+				47F05F0A2875B93200A1BA00 /* tvOS test */,
+				47F05F1E2875B98500A1BA00 /* macOS test */,
+				47F05F2B2875B98B00A1BA00 /* iOS test */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +197,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F05F1D2875B96800A1BA00 /* output.mov in Resources */,
 				47F05F162875B93300A1BA00 /* Preview Assets.xcassets in Resources */,
+				4741D5F02876646E00D2B318 /* output.mp4 in Resources */,
 				47F05F132875B93300A1BA00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F05F232875B98500A1BA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F05F242875B98500A1BA00 /* output.mov in Resources */,
+				47F05F252875B98500A1BA00 /* Preview Assets.xcassets in Resources */,
+				4741D5F12876646E00D2B318 /* output.mp4 in Resources */,
+				47F05F262875B98500A1BA00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F05F302875B98B00A1BA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F05F312875B98B00A1BA00 /* output.mov in Resources */,
+				47F05F322875B98B00A1BA00 /* Preview Assets.xcassets in Resources */,
+				4741D5F22876646E00D2B318 /* output.mp4 in Resources */,
+				47F05F332875B98B00A1BA00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +235,24 @@
 			files = (
 				47F05F112875B93200A1BA00 /* ContentView.swift in Sources */,
 				47F05F0F2875B93200A1BA00 /* test_transparencyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F05F1F2875B98500A1BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F05F202875B98500A1BA00 /* ContentView.swift in Sources */,
+				47F05F212875B98500A1BA00 /* test_transparencyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F05F2C2875B98B00A1BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F05F2D2875B98B00A1BA00 /* ContentView.swift in Sources */,
+				47F05F2E2875B98B00A1BA00 /* test_transparencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +425,112 @@
 			};
 			name = Release;
 		};
+		47F05F282875B98500A1BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-transparency/Preview Content\"";
+				DEVELOPMENT_TEAM = RV8673VR26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.104010Fitness.test-transparency";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		47F05F292875B98500A1BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-transparency/Preview Content\"";
+				DEVELOPMENT_TEAM = RV8673VR26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.104010Fitness.test-transparency";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		47F05F352875B98B00A1BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-transparency/Preview Content\"";
+				DEVELOPMENT_TEAM = RV8673VR26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.104010Fitness.test-transparency";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,3";
+			};
+			name = Debug;
+		};
+		47F05F362875B98B00A1BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-transparency/Preview Content\"";
+				DEVELOPMENT_TEAM = RV8673VR26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.104010Fitness.test-transparency";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,3";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,11 +543,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47F05F192875B93300A1BA00 /* Build configuration list for PBXNativeTarget "test-transparency" */ = {
+		47F05F192875B93300A1BA00 /* Build configuration list for PBXNativeTarget "tvOS test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47F05F1A2875B93300A1BA00 /* Debug */,
 				47F05F1B2875B93300A1BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F05F272875B98500A1BA00 /* Build configuration list for PBXNativeTarget "macOS test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F05F282875B98500A1BA00 /* Debug */,
+				47F05F292875B98500A1BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F05F342875B98B00A1BA00 /* Build configuration list for PBXNativeTarget "iOS test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F05F352875B98B00A1BA00 /* Debug */,
+				47F05F362875B98B00A1BA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
